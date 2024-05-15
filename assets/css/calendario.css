@@ -1,0 +1,39 @@
+/* Estilos para o container do calendário */
+#calendar {
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para os eventos do calendário */
+  .fc-event {
+    padding: 5px;
+    background-color: #337ab7;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para os dias da semana no cabeçalho do calendário */
+  .fc-day-header {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilos para os dias do mês no corpo do calendário */
+  .fc-day {
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilos para os eventos ao serem arrastados */
+  .fc-event-dragging {
+    opacity: 0.5;
+  }
+  
+  /* Estilos para os eventos ao serem redimensionados */
+  .fc-event-resizing {
+    opacity: 0.5;
+  }
+  
+
+  
